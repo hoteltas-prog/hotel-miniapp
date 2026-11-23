@@ -1,0 +1,145 @@
+{
+  "currency": "UZS",
+  "hotels": [
+    {
+      "id": "econom",
+      "bookable": false,
+      "stars": 2,
+      "name": {"ru": "Эконом Отель", "uz": "Ekonom Otel", "en": "Economy Hotel", "zh": "经济酒店"},
+      "tagline": {
+        "ru": "Простой и чистый номер по доступной цене",
+        "uz": "Arzon narxda oddiy va toza xona",
+        "en": "Simple, clean rooms at a friendly price",
+        "zh": "价格实惠，简洁干净"
+      },
+      "description": {
+        "ru": "Небольшая гостиница в центре Ташкента. Чистые номера, круглосуточная стойка и быстрый Wi-Fi. Хороший выбор для коротких остановок.",
+        "uz": "Toshkent markazidagi kichik mehmonxona. Toza xonalar, kecha-kunduz ochiq qabulxona va tezkor Wi-Fi. Qisqa to'xtashlar uchun yaxshi tanlov.",
+        "en": "A small hotel in central Tashkent. Clean rooms, a 24/7 front desk and fast Wi-Fi. A good choice for short stays.",
+        "zh": "塔什干市中心的小型酒店。房间干净，前台24小时服务，Wi-Fi 速度快，适合短期入住。"
+      },
+      "checkin": "14:00",
+      "checkout": "12:00",
+      "breakfast": {"from": "07:00", "to": "09:30", "included": false},
+      "amenities": [
+        {"icon": "📶", "text": {"ru": "Бесплатный Wi-Fi", "uz": "Bepul Wi-Fi", "en": "Free Wi-Fi", "zh": "免费 Wi-Fi"}},
+        {"icon": "🛎️", "text": {"ru": "Стойка работает круглосуточно", "uz": "Qabulxona kecha-kunduz ochiq", "en": "24/7 front desk", "zh": "前台24小时服务"}},
+        {"icon": "🍳", "text": {"ru": "Простой завтрак 07:00–09:30", "uz": "Oddiy nonushta 07:00–09:30", "en": "Simple breakfast 07:00–09:30", "zh": "简单早餐 07:00–09:30"}},
+        {"icon": "🧳", "text": {"ru": "Хранение багажа бесплатно до 6 часов", "uz": "Yuk saqlash 6 soatgacha bepul", "en": "Free luggage storage up to 6 hours", "zh": "免费寄存行李最长6小时"}},
+        {"icon": "❄️", "text": {"ru": "Кондиционер в каждом номере", "uz": "Har bir xonada konditsioner", "en": "Air conditioning in every room", "zh": "每间客房配空调"}}
+      ],
+      "photos": [
+        {"src": "img/econom-exterior.svg", "caption": {"ru": "Фасад", "uz": "Bino", "en": "Building", "zh": "外观"}},
+        {"src": "img/econom-reception.svg", "caption": {"ru": "Ресепшен", "uz": "Qabulxona", "en": "Reception", "zh": "前台"}},
+        {"src": "img/econom-breakfast.svg", "caption": {"ru": "Завтрак", "uz": "Nonushta", "en": "Breakfast", "zh": "早餐"}}
+      ],
+      "rooms": [
+        {
+          "id": "econom_twin", "image": "img/econom-bed_twin.svg", "capacity": 2, "area": 16, "price": 250000,
+          "name": {"ru": "Стандарт, две кровати", "uz": "Standart, ikkita karavot", "en": "Standard, two single beds", "zh": "标准间（两张单人床）"}
+        },
+        {
+          "id": "econom_double", "image": "img/econom-bed_big.svg", "capacity": 2, "area": 18, "price": 270000,
+          "name": {"ru": "Стандарт, большая кровать", "uz": "Standart, katta karavot", "en": "Standard, one large bed", "zh": "标准间（一张大床）"}
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "bookable": true,
+      "stars": 3,
+      "name": {"ru": "Тест Отель", "uz": "Test Otel", "en": "Test Hotel", "zh": "测试酒店"},
+      "tagline": {
+        "ru": "Удобный номер, завтрак уже включён",
+        "uz": "Qulay xona, nonushta narxga kiritilgan",
+        "en": "Comfortable rooms, breakfast included",
+        "zh": "舒适客房，含早餐"
+      },
+      "description": {
+        "ru": "Современная гостиница для отдыха и командировок. Просторные номера, завтрак входит в стоимость, круглосуточный ресепшен и бесплатное хранение багажа.",
+        "uz": "Dam olish va xizmat safarlari uchun zamonaviy mehmonxona. Keng xonalar, nonushta narxga kiritilgan, kecha-kunduz ochiq qabulxona va bepul yuk saqlash.",
+        "en": "A modern hotel for leisure and business trips. Spacious rooms, breakfast included, a 24/7 reception and free luggage storage.",
+        "zh": "适合休闲与商务出行的现代酒店。客房宽敞，含早餐，前台24小时服务，免费寄存行李。"
+      },
+      "checkin": "14:00",
+      "checkout": "12:00",
+      "breakfast": {"from": "07:00", "to": "10:00", "included": true},
+      "amenities": [
+        {"icon": "📶", "text": {"ru": "Бесплатный Wi-Fi", "uz": "Bepul Wi-Fi", "en": "Free Wi-Fi", "zh": "免费 Wi-Fi"}},
+        {"icon": "🍳", "text": {"ru": "Завтрак включён 07:00–10:00", "uz": "Nonushta narxga kiritilgan 07:00–10:00", "en": "Breakfast included 07:00–10:00", "zh": "含早餐 07:00–10:00"}},
+        {"icon": "🛎️", "text": {"ru": "Ресепшен круглосуточно", "uz": "Qabulxona kecha-kunduz ochiq", "en": "24/7 reception", "zh": "前台24小时服务"}},
+        {"icon": "🧳", "text": {"ru": "Хранение багажа бесплатно до 6 часов", "uz": "Yuk saqlash 6 soatgacha bepul", "en": "Free luggage storage up to 6 hours", "zh": "免费寄存行李最长6小时"}},
+        {"icon": "❄️", "text": {"ru": "Кондиционер в каждом номере", "uz": "Har bir xonada konditsioner", "en": "Air conditioning in every room", "zh": "每间客房配空调"}}
+      ],
+      "photos": [
+        {"src": "img/test-exterior.svg", "caption": {"ru": "Фасад", "uz": "Bino", "en": "Building", "zh": "外观"}},
+        {"src": "img/test-reception.svg", "caption": {"ru": "Ресепшен", "uz": "Qabulxona", "en": "Reception", "zh": "前台"}},
+        {"src": "img/test-breakfast.svg", "caption": {"ru": "Завтрак", "uz": "Nonushta", "en": "Breakfast", "zh": "早餐"}}
+      ],
+      "rooms": [
+        {
+          "id": "test_big_bed", "code": "big_bed", "image": "img/test-bed_big.svg", "capacity": 2, "area": 20, "price": 400000,
+          "name": {"ru": "Двухместный, одна большая кровать", "uz": "Ikki kishilik, bitta katta karavot", "en": "Double room, one large bed", "zh": "双人间（一张大床）"}
+        },
+        {
+          "id": "test_twin", "code": "twin", "image": "img/test-bed_twin.svg", "capacity": 2, "area": 20, "price": 380000,
+          "name": {"ru": "Двухместный, две раздельные кровати", "uz": "Ikki kishilik, ikkita alohida karavot", "en": "Double room, two single beds", "zh": "双人间（两张单人床）"}
+        },
+        {
+          "id": "test_family", "code": "family", "image": "img/test-bed_family.svg", "capacity": 3, "area": 32, "price": 550000,
+          "name": {"ru": "Семейный, три кровати", "uz": "Oilaviy, uchta karavot", "en": "Family room, three beds", "zh": "家庭房（三张床）"}
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "bookable": false,
+      "stars": 5,
+      "name": {"ru": "Премиум Отель", "uz": "Premium Otel", "en": "Premium Hotel", "zh": "尊享酒店"},
+      "tagline": {
+        "ru": "Бассейн, СПА и сервис высокого уровня",
+        "uz": "Basseyn, SPA va yuqori darajadagi xizmat",
+        "en": "Pool, spa and top-level service",
+        "zh": "泳池、水疗与高端服务"
+      },
+      "description": {
+        "ru": "Пятизвёздочный отель с открытым и крытым бассейном, СПА и рестораном. Трансфер из аэропорта и шведский стол на завтрак.",
+        "uz": "Ochiq va yopiq basseyn, SPA va restoranli besh yulduzli mehmonxona. Aeroportdan transfer va nonushtada shved stoli.",
+        "en": "A five-star hotel with an outdoor and indoor pool, spa and restaurant. Airport transfer and a buffet breakfast.",
+        "zh": "五星级酒店，设有室内外泳池、水疗中心和餐厅。提供机场接送和自助早餐。"
+      },
+      "checkin": "14:00",
+      "checkout": "12:00",
+      "breakfast": {"from": "06:30", "to": "11:00", "included": true},
+      "amenities": [
+        {"icon": "🏊", "text": {"ru": "Открытый и крытый бассейн", "uz": "Ochiq va yopiq basseyn", "en": "Outdoor and indoor pool", "zh": "室内外泳池"}},
+        {"icon": "💆", "text": {"ru": "СПА-центр", "uz": "SPA markaz", "en": "Spa centre", "zh": "水疗中心"}},
+        {"icon": "🍽️", "text": {"ru": "Шведский стол 06:30–11:00", "uz": "Shved stoli 06:30–11:00", "en": "Buffet breakfast 06:30–11:00", "zh": "自助早餐 06:30–11:00"}},
+        {"icon": "🚐", "text": {"ru": "Трансфер из аэропорта", "uz": "Aeroportdan transfer", "en": "Airport transfer", "zh": "机场接送"}},
+        {"icon": "📶", "text": {"ru": "Бесплатный Wi-Fi", "uz": "Bepul Wi-Fi", "en": "Free Wi-Fi", "zh": "免费 Wi-Fi"}},
+        {"icon": "🧳", "text": {"ru": "Хранение багажа бесплатно", "uz": "Yuk saqlash bepul", "en": "Free luggage storage", "zh": "免费寄存行李"}}
+      ],
+      "photos": [
+        {"src": "img/premium-exterior.svg", "caption": {"ru": "Фасад", "uz": "Bino", "en": "Building", "zh": "外观"}},
+        {"src": "img/premium-pool.svg", "caption": {"ru": "Бассейн", "uz": "Basseyn", "en": "Pool", "zh": "游泳池"}},
+        {"src": "img/premium-spa.svg", "caption": {"ru": "СПА", "uz": "SPA", "en": "Spa", "zh": "水疗"}},
+        {"src": "img/premium-reception.svg", "caption": {"ru": "Ресепшен", "uz": "Qabulxona", "en": "Reception", "zh": "前台"}},
+        {"src": "img/premium-breakfast.svg", "caption": {"ru": "Завтрак", "uz": "Nonushta", "en": "Breakfast", "zh": "早餐"}}
+      ],
+      "rooms": [
+        {
+          "id": "premium_deluxe", "image": "img/premium-bed_big.svg", "capacity": 2, "area": 32, "price": 900000,
+          "name": {"ru": "Делюкс, большая кровать", "uz": "Delyuks, katta karavot", "en": "Deluxe, one large bed", "zh": "豪华间（一张大床）"}
+        },
+        {
+          "id": "premium_suite", "image": "img/premium-suite.svg", "capacity": 3, "area": 55, "price": 1500000,
+          "name": {"ru": "Люкс с гостиной", "uz": "Yashash xonasi bilan lyuks", "en": "Suite with living room", "zh": "带客厅的套房"}
+        },
+        {
+          "id": "premium_family", "image": "img/premium-bed_family.svg", "capacity": 4, "area": 70, "price": 1800000,
+          "name": {"ru": "Семейный люкс, три кровати", "uz": "Oilaviy lyuks, uchta karavot", "en": "Family suite, three beds", "zh": "家庭套房（三张床）"}
+        }
+      ]
+    }
+  ]
+}
