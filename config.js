@@ -2,5 +2,5 @@
 // version: поднимать на единицу после каждой правки файлов, чтобы Telegram не показывал старые копии.
 window.APP_CONFIG = {
   botUsername: "sapphire_1_bot",
-  version: "3"
+  version: "4"
 };
